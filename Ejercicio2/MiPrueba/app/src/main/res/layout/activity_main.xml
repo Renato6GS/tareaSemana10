@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ejercicio2"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="147dp"
+            app:srcCompat="@drawable/logo" />
+
+        <EditText
+            android:id="@+id/editVal1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/dato1"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/editVal2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="@string/dato2"
+            android:inputType="number"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/btnSuma"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="25"
+                android:text="@string/suma"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                android:onClick="onClick" />
+
+            <Button
+                android:id="@+id/btnResta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="25"
+                android:text="@string/resta"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                android:onClick="onClick" />
+
+            <Button
+                android:id="@+id/btnMulti"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="25"
+                android:text="@string/multi"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                android:onClick="onClick" />
+
+            <Button
+                android:id="@+id/btnDivision"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="25"
+                android:text="@string/division"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                android:onClick="onClick" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textResultado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/resultado"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

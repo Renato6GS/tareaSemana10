@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Mi aplicación 2</string>
+
+    <!-- Ejercicio 2 -->
+    <string name="ejercicio2">Ejercicio 2</string>
+    <string name="dato1">Ingrese el primer dato</string>
+    <string name="dato2">Ingrese el segundo dato</string>
+    <string name="suma">+</string>
+    <string name="resta">-</string>
+    <string name="multi">x</string>
+    <string name="division">/</string>
+    <string name="resultado">Resultado: --</string>
+
+</resources>

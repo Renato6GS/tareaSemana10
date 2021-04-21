@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Ejercicio4</string>
+
+    <string name="ejercicio4">Ejercicio 4</string>
+
+    <string name="radio">Radio (r)</string>
+    <string name="base">Base (b)</string>
+    <string name="altura">Altura (h)</string>
+    <string name="area">Calcular área</string>
+    <string name="resultado">Resultado: </string>
+    <string name="areaCirculo">Área del circulo</string>
+    <string name="areaRectangulo">Área del rectángulo</string>
+    <string name="areaTriangulo">Área del triángulo</string>
+</resources>

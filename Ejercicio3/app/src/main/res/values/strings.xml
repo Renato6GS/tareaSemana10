@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Ejercicio3</string>
+
+    <string name="ejercicio3">Ejercicio 3</string>
+    <string name="campoA">Valor de a</string>
+    <string name="campoB">Valor de b</string>
+    <string name="campoC">Valor de c</string>
+    <string name="calcular">Calcular raíces</string>
+</resources>
